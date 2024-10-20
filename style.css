@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #a7a7a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f4ee;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.text p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.progress-lol {
+    background-color: #e0e0e0;
+    width: 200px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress {
+    width: 75%;
+    height: 100%;
+    background-color: #f89c32;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.followers {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.follow-button {
+    background-color: #1a1a3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1rem;
+}
